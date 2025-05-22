@@ -1,0 +1,41 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "customerId": {
+            "description": "",
+            "type": "string"
+        },
+        "customerName": {
+            "description": "",
+            "type": "string"
+        },
+        "countryCode": {
+            "description": "",
+            "type": "string",
+            "maxLength": 3,
+            "minLength": 3
+        },
+        "eventId": {
+            "description": "",
+            "type": "string"
+        },
+        "eventTime": {
+            "description": "",
+            "format": "date-time",
+            "type": "string"
+        },
+        "eventType": {
+            "enum": [
+                "updateDetails"
+            ],
+            "type": "string"
+        },
+        "ip": {
+            "description": "",
+            "format": "ipv4",
+            "type": "string"
+        }
+    },
+    "required": ["customerId", "eventId", "eventTime", "eventType"]
+}
