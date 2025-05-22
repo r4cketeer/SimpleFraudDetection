@@ -7,8 +7,11 @@ Monorepo untuk MVP fraud engine, terdiri dari:
 - `fraud-engine`: Background worker untuk evaluasi rule dan deteksi fraud
 - `schemas`: Skema data yang diterima oleh fraud engine
 
-## Struktur
-📁 dashboard-frontend
-📁 api
-📁 fraud-engine
-📁 schemas
+## Struktur  
+📁 dashboard-frontend  
+📁 api  
+📁 fraud-engine  
+📁 schemas  
+ 
+
+[![Personal Website](https://img.shields.io/badge/My%20Website-www.danielsebastiandharma.com-blue)](https://www.danielsebastiandharma.com)
